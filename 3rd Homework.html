@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact form</title>
+    </head>
+    <body>
+        <h1>Contact form</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text"id="name"name="name"requried="2">
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email"id="email"name="email"requried>
+            <br><br>
+            
+            <label for="phone">Phone:</label><br>
+            <input type="tel"id="phone"name="phone">
+            <br><br>
+
+            <label>Reason:</label><br>
+            <input type="radio"id="question"name="reason"value="Question">
+
+            <label for="question">Question</label><br>
+            <input type="radio"id="feedback"name="reason"value="Feedback">
+
+            <label for="feedback">Feedback</label><br>
+            <input type="radio"id="bug"name="reason"value="Bug">
+
+            <label for="bug">Bug</label>
+            <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message"name="message"requried minlength="10"rows="5"cols="30"></textarea>
+            <br><br>
+
+            <input type="checkbox"id="subscribe"name="subscribe">
+
+            <label for="subscribe"> Subscribe to newsletter</label>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
